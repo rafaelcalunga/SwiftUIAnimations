@@ -49,6 +49,7 @@
 		6DF0994425042DBD00A6CBCB /* AnimationsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimationsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6DF0994825042DBD00A6CBCB /* AnimationsUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationsUITests.swift; sourceTree = "<group>"; };
 		6DF0994A25042DBD00A6CBCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6DF099572505445500A6CBCB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +84,7 @@
 				6DF0993C25042DBD00A6CBCB /* AnimationsTests */,
 				6DF0994725042DBD00A6CBCB /* AnimationsUITests */,
 				6DF0992425042DBA00A6CBCB /* Products */,
+				6DF099572505445500A6CBCB /* README.md */,
 			);
 			sourceTree = "<group>";
 		};

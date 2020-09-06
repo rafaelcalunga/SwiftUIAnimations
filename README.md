@@ -6,5 +6,6 @@ I learned how to:
 
 - Create implicit animations
 - Customize animations in SwiftUI
+- Animate bindings
 
 This app was made using the course *100 Days of SwiftUI* from [Hacking With Swift](https://www.hackingwithswift.com/100/swiftui/)

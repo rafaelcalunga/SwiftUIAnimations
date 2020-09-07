@@ -8,5 +8,7 @@ I learned how to:
 - Customize animations in SwiftUI
 - Animate bindings
 - Create explicit animations
+- Control the animation stack
+- Animate gestures
 
 This app was made using the course *100 Days of SwiftUI* from [Hacking With Swift](https://www.hackingwithswift.com/100/swiftui/)

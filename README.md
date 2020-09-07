@@ -10,5 +10,6 @@ I learned how to:
 - Create explicit animations
 - Control the animation stack
 - Animate gestures
+- Show and hide views with transitions
 
 This app was made using the course *100 Days of SwiftUI* from [Hacking With Swift](https://www.hackingwithswift.com/100/swiftui/)

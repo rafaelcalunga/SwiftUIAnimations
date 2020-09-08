@@ -11,5 +11,6 @@ I learned how to:
 - Control the animation stack
 - Animate gestures
 - Show and hide views with transitions
+- Build custom transitions using ViewModifier
 
 This app was made using the course *100 Days of SwiftUI* from [Hacking With Swift](https://www.hackingwithswift.com/100/swiftui/)

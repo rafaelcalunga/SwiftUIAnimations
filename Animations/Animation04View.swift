@@ -1,5 +1,6 @@
 //
 // Showing and hiding views with transitions
+// Building custom transitions using ViewModifier
 //
 //  Animation04View.swift
 //  Animations
@@ -9,6 +10,25 @@
 //
 
 import SwiftUI
+
+struct CornerRotateModifier: ViewModifier {
+    let amount: Double
+    let anchor: UnitPoint
+    
+    func body(content: Content) -> some View {
+        content.rotationEffect(.degrees(amount), anchor: anchor)
+        .clipped()
+    }
+}
+
+extension AnyTransition {
+    static var pivot: AnyTransition {
+        .modifier(
+            active: CornerRotateModifier(amount: -90, anchor: .topLeading),
+            identity: CornerRotateModifier(amount: 0, anchor: .topLeading)
+        )
+    }
+}
 
 struct Animation04View: View {
     
@@ -26,8 +46,9 @@ struct Animation04View: View {
                 Rectangle()
                     .fill(Color.red)
                     .frame(width: 200, height: 200)
-                    .transition(.asymmetric(insertion: .scale, removal: .opacity))
+                    //.transition(.asymmetric(insertion: .scale, removal: .opacity))
                     //.transition(.scale)
+                    .transition(.pivot)
             }
         }
     }
